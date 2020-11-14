@@ -152,6 +152,21 @@ li {
     background-color: #DF0024;
 }
 
+.header__menu-btn {
+    width: 30px;
+    display: none;
+}
+
+.header__menu-row {
+    width: 100%;
+    background-color: #000;
+    height: 5px;
+}
+
+.header__menu-row + .header__menu-row {
+    margin-top: 5px;
+}
+
 .menu {
     display: flex;
     align-items: center;
